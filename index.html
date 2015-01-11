@@ -7,13 +7,34 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+    <link rel="stylesheet" type="text/css" href="stylesheets/slideshow.css">
+    <script type="text/javascript" src="javascripts/jquery-1.2.6.min.js"></script>
+    <script type="text/javascript" src="javascripts/slideshow.js"></script>
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <title>KeikiTech by KeikiTech</title>
+    <title>KeikiTech</title>
   </head>
 
   <body>
+  <script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '760828667318449',
+      xfbml      : true,
+      version    : 'v2.2'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
     <div id="container">
       <div class="inner">
 
@@ -22,40 +43,37 @@
           <h2>Teaching Tomorrow&#39;s Tech Experts</h2>
         </header>
 
-        <section id="downloads" class="clearfix">
-          <a href="https://github.com/KeikiTech" id="view-on-github" class="button"><span>View on GitHub</span></a>
-        </section>
-
         <hr>
 
         <section id="main_content">
+
+<div id="slideshow"> 
+    <img src="images/image1.jpg" alt="Slideshow Image 1" class="active" />
+    <img src="images/image2.jpg" alt="Slideshow Image 2" />
+    <img src="images/image3.jpg" alt="Slideshow Image 3" />
+    <img src="images/image4.jpg" alt="Slideshow Image 4" />
+    <img src="images/image5.jpg" alt="Slideshow Image 5" />
+    <img src="images/image6.jpg" alt="Slideshow Image 6" />
+</div>
+
+<hr />
           <h3>
 <a id="cs-education-for-kids-on-the-big-island" class="anchor" href="#cs-education-for-kids-on-the-big-island" aria-hidden="true"><span class="octicon octicon-link"></span></a>CS Education for Kids on the Big Island</h3>
 
 <p>KeikiTech is a non-profit organization based in Hilo, Hawai'i. We teach kids computer science, software engineering and general tech skills.</p>
 
+<hr />
 <h1>
-<a id="sign-up-to-receive-updates" class="anchor" href="#sign-up-to-receive-updates" aria-hidden="true"><span class="octicon octicon-link"></span></a>Sign up to receive updates</h1>
+<a id="sign-up-to-learn-more" class="anchor" href="#sign-up-to-learn-more" aria-hidden="true"><span class="octicon octicon-link"></span></a>Sign up to learn more</h1>
 
 <p>Get notified about new classes, workshops and events.</p>
 
 <pre><code>TODO
 </code></pre>
 
-<h2>
-<a id="slideshow" class="anchor" href="#slideshow" aria-hidden="true"><span class="octicon octicon-link"></span></a>Slideshow</h2>
-
-<pre><code>TODO
-</code></pre>
-
-<h2>
-<a id="facebook-link" class="anchor" href="#facebook-link" aria-hidden="true"><span class="octicon octicon-link"></span></a>Facebook link</h2>
-
-<pre><code>TODO
-</code></pre>
-
-<h2>
-<a id="about-us" class="anchor" href="#about-us" aria-hidden="true"><span class="octicon octicon-link"></span></a>About Us</h2>
+<hr />
+<h1>
+<a id="about-us" class="anchor" href="#about-us" aria-hidden="true"><span class="octicon octicon-link"></span></a>About Us</h1>
 
 <h3>
 <a id="brian-hall" class="anchor" href="#brian-hall" aria-hidden="true"><span class="octicon octicon-link"></span></a>Brian Hall</h3>
@@ -76,6 +94,11 @@ We’ve got some great Meetup groups forming in the Hilo area, and I volunteer w
 <p>It’s a great time to learn programming, and would love to help kids learn in a fun manner.</p>
 
 <p>I live in Hilo, working for an Oahu company, Upspring Media. We do a lot of Drupal websites and general web/app development.</p>
+
+<hr />
+<div class="fb-like" data-href="https://facebook.com/KeikiTech" data-width="600" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+
+
         </section>
 
         <footer>

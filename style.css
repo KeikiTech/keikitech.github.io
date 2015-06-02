@@ -1340,9 +1340,9 @@ footer .footer-links p{float:left; background:url(images/footer_arrow.png) right
   padding: 5px 5px 0;
 }
 
-#upcoming .blog-entry img {
+/*#upcoming .blog-entry img {
 	width: 100%;
-}
+}*/
 
 .black {
     background:rgb(0,0,0);
@@ -1365,4 +1365,9 @@ footer .footer-links p{float:left; background:url(images/footer_arrow.png) right
 
 .entry-meta-second {
 	top: 50px;
+}
+
+.upcoming-event {
+	width: 500px;
+	margin: 0 auto;
 }

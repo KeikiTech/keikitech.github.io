@@ -1339,3 +1339,30 @@ footer .footer-links p{float:left; background:url(images/footer_arrow.png) right
   font-size: 19px;
   padding: 5px 5px 0;
 }
+
+#upcoming .blog-entry img {
+	width: 100%;
+}
+
+.black {
+    background:rgb(0,0,0);
+    background:rgba(0,0,0,.31);
+    *background:transparent;
+    *filter:progid:DXImageTransform.Microsoft.gradient(startColorStr=#BF000000,endColorStr=#BF000000);
+    *-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#BF000000,endColorstr=#BF000000)";
+}
+
+.rounded-corners {
+     -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.entry-details {
+	padding: 10px;
+}
+
+.entry-meta-second {
+	top: 50px;
+}
